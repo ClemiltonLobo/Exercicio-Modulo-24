@@ -7797,9 +7797,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1690051150317547834, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_Size.x
+      value: 40.347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690051150317547834, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_Size.y
+      value: 17.68476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690051150317547834, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_Size.z
+      value: 20.585814
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690051150317547834, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_Center.x
+      value: -5.0586433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690051150317547834, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_Center.y
+      value: 27.60272
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690051150317547834, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_Center.z
+      value: 78.40479
+      objectReference: {fileID: 0}
     - target: {fileID: 2355867273261992976, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
       propertyPath: m_Name
       value: Level01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910748681293877438, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6232764
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910748681293877438, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 98585540
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910748681293877438, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11408627
       objectReference: {fileID: 0}
     - target: {fileID: 3034327807679702513, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
       propertyPath: m_Size.y
