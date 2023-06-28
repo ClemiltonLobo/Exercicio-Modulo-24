@@ -1219,6 +1219,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &711807219 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1143927693162474813, guid: ab1e49b1a2d16ae4cb26255cc41b6723, type: 3}
+  m_PrefabInstance: {fileID: 3749983753965879957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &728662388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,7 +1631,7 @@ MonoBehaviour:
   pausePanel: {fileID: 1650719293}
   TextPause: {fileID: 1736839703}
   ButtonBackMenu: {fileID: 224956954}
-  ambienteAudioSource: {fileID: 0}
+  ambienteAudioSource: {fileID: 711807219}
   footstepsAudio: {fileID: 353920617}
 --- !u!114 &962170459
 MonoBehaviour:
