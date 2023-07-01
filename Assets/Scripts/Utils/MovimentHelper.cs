@@ -7,12 +7,30 @@ public class MovimentHelper : MonoBehaviour
 {
     public List<Transform> positions;
     public float duration = 1f;
+    public bool useRandomPosition = false;
+    public int[] initialPositions;
 
     private int _index = 0;
 
     private void Start()
     {
-        transform.position = positions[0].transform.position;
+        if (useRandomPosition)
+        {
+            // Usar uma posição aleatória para cada inimigo
+            int randomIndex = UnityEngine.Random.Range(0, positions.Count);
+            transform.position = positions[randomIndex].position;
+        }
+        else if (initialPositions.Length > 0)
+        {
+            // Usar as posições definidas no Inspector
+            int clampedIndex = Mathf.Clamp(_index, 0, initialPositions.Length - 1);
+            transform.position = positions[initialPositions[clampedIndex]].position;
+        }
+        else
+        {
+            // Usar a primeira posição da lista como padrão
+            transform.position = positions[0].position;
+        }
         NextIndex();
         StartCoroutine(StartMoviment());
     }
