@@ -2338,6 +2338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireWing
       objectReference: {fileID: 0}
+    - target: {fileID: 1479494835856364, guid: 7d53b2a40ca830044a27aba623ee0c7f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4521056073084984, guid: 7d53b2a40ca830044a27aba623ee0c7f, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -37651,6 +37655,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 527945213}
+    - target: {fileID: 3153426853810719699, guid: 6eca605bd4611a4418def26a9e26e644, type: 3}
+      propertyPath: animationDuration
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3978020219010706595, guid: 6eca605bd4611a4418def26a9e26e644, type: 3}
       propertyPath: m_Size.x
       value: 152.32498
