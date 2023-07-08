@@ -9,6 +9,7 @@ public class ItemCollactableCoin : ItemCollactableBase
     public float lerp = 3f;
     public float minDistance = 1f;
 
+   
     protected override void OnCollect()
     {
         base.OnCollect();        
