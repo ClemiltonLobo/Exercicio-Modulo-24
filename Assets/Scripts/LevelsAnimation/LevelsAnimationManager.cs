@@ -7,7 +7,7 @@ using Cinemachine;
 
 public class LevelsAnimationManager : MonoBehaviour
 {
-    public List<GameObject> levelFolder;  // Pasta com os objetos do lado esquerdo
+    public List<GameObject> levelFolder;  // Pasta com os objetos
     //public List<GameObject> rightLevelFolder;  // Pasta com os objetos do lado direito
     public float scaleTimeBetweenPieces = 1f; // Tempo entre o crescimento de cada objeto
     public CinemachineVirtualCamera virtualCamera; // Referência ao objeto VirtualCamera da Cinemachine
