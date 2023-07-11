@@ -18,6 +18,7 @@ public class PlayerController : Singleton<PlayerController>
     public string tagToCheckEndLine = "EndLine";
     public float minX = -5f; // o limite mínimo da posição x
     public float maxX = 5f; // o limite máximo da posição x    
+    public Vector3 DefaultScale { get; private set; }
     //public Rigidbody rb;
 
     [Header("Text PowerUp Name")]
@@ -31,21 +32,31 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Animation")]
     public AnimatorManager animatorManager;
 
+    [SerializeField]
+    private BounceHelper _bounceHelper;
+
     //privates
     private bool _canRun;
     private Vector3 _pos;
     private float _currentSpeed;
-    private Vector3 _startPosition;
+    private Vector3 _startPosition;    
     //private int levelToRestart;
 
     private void Start()
     {
         //rb = GetComponent<Rigidbody>();
+        DefaultScale = transform.localScale;
         _startPosition = transform.position;
         ResetSpeed();
         _canRun = true;
         animatorManager.Play(AnimatorManager.AnimationType.RUN);
         //levelToRestart = SceneManager.GetActiveScene().buildIndex;
+    }
+
+    public void Bounce()
+    {
+        if (_bounceHelper != null)
+        _bounceHelper.Bounce();
     }
 
     void Update()

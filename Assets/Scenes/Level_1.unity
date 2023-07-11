@@ -4858,6 +4858,7 @@ MonoBehaviour:
   invecible: 0
   CandyCollector: {fileID: 888045175}
   animatorManager: {fileID: 353920613}
+  _bounceHelper: {fileID: 919132148380510905}
 --- !u!114 &353920616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12311,7 +12312,7 @@ GameObject:
   - component: {fileID: 1012888804}
   m_Layer: 6
   m_Name: Collectables
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30678,7 +30679,7 @@ GameObject:
   - component: {fileID: 919132147588978208}
   m_Layer: 6
   m_Name: Lollipop
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30717,7 +30718,7 @@ GameObject:
   - component: {fileID: 919132147611784500}
   m_Layer: 6
   m_Name: CakeStroke (6)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30756,7 +30757,7 @@ GameObject:
   - component: {fileID: 919132147643882935}
   m_Layer: 6
   m_Name: Lollipop1 (4)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30795,7 +30796,7 @@ GameObject:
   - component: {fileID: 919132147644316284}
   m_Layer: 6
   m_Name: CandyApple
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30834,7 +30835,7 @@ GameObject:
   - component: {fileID: 919132147648983896}
   m_Layer: 6
   m_Name: Donnut (2)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30873,7 +30874,7 @@ GameObject:
   - component: {fileID: 919132147651688807}
   m_Layer: 6
   m_Name: CandyApple (8)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30912,7 +30913,7 @@ GameObject:
   - component: {fileID: 919132147669478288}
   m_Layer: 6
   m_Name: CakeStroke (3)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30951,7 +30952,7 @@ GameObject:
   - component: {fileID: 919132147689063514}
   m_Layer: 6
   m_Name: CandyApple (2)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30990,7 +30991,7 @@ GameObject:
   - component: {fileID: 919132147695993081}
   m_Layer: 6
   m_Name: Donnut (8)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31029,7 +31030,7 @@ GameObject:
   - component: {fileID: 919132147712819861}
   m_Layer: 6
   m_Name: Lollipop (9)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31068,7 +31069,7 @@ GameObject:
   - component: {fileID: 919132147726096846}
   m_Layer: 6
   m_Name: CandyApple (3)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31107,7 +31108,7 @@ GameObject:
   - component: {fileID: 919132147731116485}
   m_Layer: 6
   m_Name: Lollipop (5)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31146,7 +31147,7 @@ GameObject:
   - component: {fileID: 919132147805920328}
   m_Layer: 6
   m_Name: Lollipop1 (7)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31185,7 +31186,7 @@ GameObject:
   - component: {fileID: 919132147829099500}
   m_Layer: 6
   m_Name: Lollipop1 (10)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31224,7 +31225,7 @@ GameObject:
   - component: {fileID: 919132147879300970}
   m_Layer: 6
   m_Name: Donnut (7)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31263,7 +31264,7 @@ GameObject:
   - component: {fileID: 919132147890426553}
   m_Layer: 6
   m_Name: Lollipop1 (3)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31302,7 +31303,7 @@ GameObject:
   - component: {fileID: 919132147962566403}
   m_Layer: 6
   m_Name: CakeStroke (8)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31341,7 +31342,7 @@ GameObject:
   - component: {fileID: 919132148123115660}
   m_Layer: 6
   m_Name: Lollipop1 (8)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31380,7 +31381,7 @@ GameObject:
   - component: {fileID: 919132148152134319}
   m_Layer: 6
   m_Name: Lollipop1
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31405,7 +31406,7 @@ MonoBehaviour:
   Collider: {fileID: 977465846}
   collect: 0
   lerp: 5
-  minDistance: 1
+  minDistance: 2.48
 --- !u!1 &919132148180748124
 GameObject:
   m_ObjectHideFlags: 0
@@ -31419,7 +31420,7 @@ GameObject:
   - component: {fileID: 919132148180748125}
   m_Layer: 6
   m_Name: CakeStroke (1)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31458,7 +31459,7 @@ GameObject:
   - component: {fileID: 919132148191729890}
   m_Layer: 6
   m_Name: Lollipop (2)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31514,7 +31515,7 @@ GameObject:
   - component: {fileID: 919132148334365067}
   m_Layer: 6
   m_Name: CakeStroke (7)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31558,6 +31559,7 @@ GameObject:
   - component: {fileID: 353920615}
   - component: {fileID: 353920616}
   - component: {fileID: 919132148380510904}
+  - component: {fileID: 919132148380510905}
   m_Layer: 0
   m_Name: Rael
   m_TagString: Player
@@ -31583,6 +31585,21 @@ MonoBehaviour:
   virtualCamera: {fileID: 1316477354}
   animDuration: 1
   ease: 30
+--- !u!114 &919132148380510905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148380510903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49aa2d84ccfa126469cccd8bf68ed13e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScaleDuration: 0.25
+  scaleBounce: 6
+  ease: 27
 --- !u!1 &919132148428421793
 GameObject:
   m_ObjectHideFlags: 0
@@ -31596,7 +31613,7 @@ GameObject:
   - component: {fileID: 919132148428421794}
   m_Layer: 6
   m_Name: CandyApple (9)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31635,7 +31652,7 @@ GameObject:
   - component: {fileID: 919132148457595225}
   m_Layer: 6
   m_Name: Lollipop1 (5)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31674,7 +31691,7 @@ GameObject:
   - component: {fileID: 919132148514934684}
   m_Layer: 6
   m_Name: CandyApple (1)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31713,7 +31730,7 @@ GameObject:
   - component: {fileID: 919132148559684686}
   m_Layer: 6
   m_Name: Lollipop (6)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31752,7 +31769,7 @@ GameObject:
   - component: {fileID: 919132148591369111}
   m_Layer: 6
   m_Name: Donnut (6)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31791,7 +31808,7 @@ GameObject:
   - component: {fileID: 919132148634219078}
   m_Layer: 6
   m_Name: Donnut (9)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31830,7 +31847,7 @@ GameObject:
   - component: {fileID: 919132148659661020}
   m_Layer: 6
   m_Name: Lollipop1 (11)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31869,7 +31886,7 @@ GameObject:
   - component: {fileID: 919132148666115091}
   m_Layer: 6
   m_Name: Donnut (3)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31908,7 +31925,7 @@ GameObject:
   - component: {fileID: 919132148748589650}
   m_Layer: 6
   m_Name: Lollipop1 (12)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31947,7 +31964,7 @@ GameObject:
   - component: {fileID: 919132148769610101}
   m_Layer: 6
   m_Name: CandyApple (7)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31986,7 +32003,7 @@ GameObject:
   - component: {fileID: 919132148852000586}
   m_Layer: 6
   m_Name: Donnut (10)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32025,7 +32042,7 @@ GameObject:
   - component: {fileID: 919132148858730066}
   m_Layer: 6
   m_Name: CakeStroke (2)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32064,7 +32081,7 @@ GameObject:
   - component: {fileID: 919132148935146963}
   m_Layer: 6
   m_Name: Lollipop (3)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32103,7 +32120,7 @@ GameObject:
   - component: {fileID: 919132149004434103}
   m_Layer: 6
   m_Name: CandyApple (4)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32142,7 +32159,7 @@ GameObject:
   - component: {fileID: 919132149008956784}
   m_Layer: 6
   m_Name: Lollipop (1)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32181,7 +32198,7 @@ GameObject:
   - component: {fileID: 919132149019840860}
   m_Layer: 6
   m_Name: Lollipop1 (2)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32220,7 +32237,7 @@ GameObject:
   - component: {fileID: 919132149036707166}
   m_Layer: 6
   m_Name: CakeStroke (9)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32259,7 +32276,7 @@ GameObject:
   - component: {fileID: 919132149062123604}
   m_Layer: 6
   m_Name: CakeStroke (10)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32298,7 +32315,7 @@ GameObject:
   - component: {fileID: 919132149069955499}
   m_Layer: 6
   m_Name: CakeStroke (5)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32337,7 +32354,7 @@ GameObject:
   - component: {fileID: 919132149074835241}
   m_Layer: 6
   m_Name: Lollipop (11)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32376,7 +32393,7 @@ GameObject:
   - component: {fileID: 919132149106249005}
   m_Layer: 6
   m_Name: CandyApple (5)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32415,7 +32432,7 @@ GameObject:
   - component: {fileID: 919132149123562821}
   m_Layer: 6
   m_Name: Lollipop (8)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32454,7 +32471,7 @@ GameObject:
   - component: {fileID: 919132149125504388}
   m_Layer: 6
   m_Name: CakeStroke (4)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32493,7 +32510,7 @@ GameObject:
   - component: {fileID: 919132149162809320}
   m_Layer: 6
   m_Name: Donnut (4)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32532,7 +32549,7 @@ GameObject:
   - component: {fileID: 919132149234889260}
   m_Layer: 6
   m_Name: CakeStroke
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32571,7 +32588,7 @@ GameObject:
   - component: {fileID: 919132149238592289}
   m_Layer: 6
   m_Name: Lollipop1 (9)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32610,7 +32627,7 @@ GameObject:
   - component: {fileID: 919132149339701613}
   m_Layer: 6
   m_Name: Donnut (11)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32649,7 +32666,7 @@ GameObject:
   - component: {fileID: 919132149394532739}
   m_Layer: 6
   m_Name: CakeStroke (11)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32688,7 +32705,7 @@ GameObject:
   - component: {fileID: 919132149432879802}
   m_Layer: 6
   m_Name: CandyApple (6)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32727,7 +32744,7 @@ GameObject:
   - component: {fileID: 919132149465663457}
   m_Layer: 6
   m_Name: Donnut
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32766,7 +32783,7 @@ GameObject:
   - component: {fileID: 919132149489486854}
   m_Layer: 6
   m_Name: Lollipop (4)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32805,7 +32822,7 @@ GameObject:
   - component: {fileID: 919132149511728108}
   m_Layer: 6
   m_Name: Donnut (5)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32844,7 +32861,7 @@ GameObject:
   - component: {fileID: 919132149527717685}
   m_Layer: 6
   m_Name: CandyApple (10)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32883,7 +32900,7 @@ GameObject:
   - component: {fileID: 919132149534481845}
   m_Layer: 6
   m_Name: Donnut (1)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32922,7 +32939,7 @@ GameObject:
   - component: {fileID: 919132149537080959}
   m_Layer: 6
   m_Name: Lollipop1 (6)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32961,7 +32978,7 @@ GameObject:
   - component: {fileID: 919132149540210642}
   m_Layer: 6
   m_Name: CandyApple (11)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33000,7 +33017,7 @@ GameObject:
   - component: {fileID: 919132149572499489}
   m_Layer: 6
   m_Name: Lollipop (7)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33039,7 +33056,7 @@ GameObject:
   - component: {fileID: 919132149609778898}
   m_Layer: 6
   m_Name: Lollipop (10)
-  m_TagString: Untagged
+  m_TagString: CandyCollector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
