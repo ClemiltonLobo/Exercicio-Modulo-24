@@ -16094,7 +16094,6 @@ GameObject:
   - component: {fileID: 353920616}
   - component: {fileID: 919132148380510904}
   - component: {fileID: 919132148380510905}
-  - component: {fileID: 919132148380510906}
   m_Layer: 0
   m_Name: Rael
   m_TagString: Player
@@ -16132,24 +16131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49aa2d84ccfa126469cccd8bf68ed13e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScaleDuration: 0.2
-  scaleBounce: 6
-  ease: 1
---- !u!114 &919132148380510906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148380510903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49aa2d84ccfa126469cccd8bf68ed13e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   ScaleDuration: 0.25
   scaleBounce: 6
-  ease: 27
+  ease: 1
 --- !u!4 &1031632035591686736
 Transform:
   m_ObjectHideFlags: 0
